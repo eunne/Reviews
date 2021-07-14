@@ -1,8 +1,8 @@
 <br/>
 
-# 30days Review (한달 회고)
+# Monthly Review (한달 회고)
 
-2021.07.11
+![monthlyreview](/img/monthly.png)
 
 <br/>
 <br/>
