@@ -117,7 +117,7 @@ Tstory에서 악성 반복 업로드 봇인줄 알고 포스팅 할 때마다 �
 
 강의 재생시간을 보면 2분인데 해당 프로그램을 내가 직접 구현해야하기때문에 실제로는 몇시간이 걸리는건 안비밀.
 
-아래는 현재 듣고있는 과정 : [프론트엔드를 위한 자바스크립트 강의](https://academy.dream-coding.com/courses/browser101)
+- 현재 수강중 : [프론트엔드를 위한 자바스크립트 강의](https://academy.dream-coding.com/courses/browser101)
 
 <br/>
 <br/>
@@ -142,7 +142,7 @@ Tstory에서 악성 반복 업로드 봇인줄 알고 포스팅 할 때마다 �
 
 그리고 나중에 해당 지식이 쌓이면 재정리하여 포스팅하는 방향으로 가기로 했다. 지금까지 그 선택은 옳았다.
 
-eunne 티스토리: [My Tstory: To infinity, and beyond](https://eunne.tistory.com/)
+- eunne 티스토리: [My Tstory: To infinity, and beyond](https://eunne.tistory.com/)
 
 <br/>
 
@@ -158,7 +158,7 @@ eunne 티스토리: [My Tstory: To infinity, and beyond](https://eunne.tistory.c
 
 그리고 책을 통해 알게 된 관련이론들을 정리해서 git에 정리해서 올렸다.
 
-공부 후 처음 정리해서 올린 깃깃: [Mi first publish! Basic WebAPIs](https://github.com/eunne/DreamCoding_WebAPIs.git)
+- 공부 후 처음 정리해서 올린 깃깃: [Mi first publish! Basic WebAPIs](https://github.com/eunne/DreamCoding_WebAPIs.git)
 
 
 <br/>
