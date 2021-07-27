@@ -78,7 +78,7 @@ rebase를  이용하면 이력을 하나의 줄기로 만들 수 있다고 한�
 
 - merge와 rebase 비교
 
-    ![/img/conflict2.PNG](/img/conflict2.PNG)
+    ![/img/conflict2.PNG](/img/compare.PNG)
 
 <br/>
 <br/>
@@ -192,7 +192,7 @@ git rebase upstream/taiwan
 git reflog 브랜치이름
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8aa8435e-e000-425b-95a8-8797af85af37/rebase_reset.png](/img/rebase_reset.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8aa8435e-e000-425b-95a8-8797af85af37/rebase_reset.png](/img/rebase_reset.PNG)
 
 위와같이 로그가 떴다. 아예 처음으로 돌아가기 위해서 fenglisu{0}으로 이동하기로 한다.
 
@@ -215,7 +215,7 @@ upstream에서 받아온 그 상태 그대로로 돌아가고 싶은데 안된�
 
 이번에는 vscode를 실행시켜서 해봤는데 1번까지는 무난하고 2번에서 충돌이 발생을 해서 보니 펑리수끼리 충돌이 발생해있었다. 음? 나는 망고빙수랑 충돌이 일어날 줄 알았는데 1번펑리수랑 1번,2번 펑리수가 충돌???
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2a1dd43e-7643-4865-8fd3-082db15b1758/conflict2.png](/img/conflict2.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2a1dd43e-7643-4865-8fd3-082db15b1758/conflict2.png](/img/conflict2.PNG)
 
 이건 대체 뭔 상황이여....................
 
@@ -229,7 +229,7 @@ upstream에서 받아온 그 상태 그대로로 돌아가고 싶은데 안된�
 
 그래서 다시 fetch로 가져왔더니 이번엔 펑리수가 망고빙수 위에 존재해버리는 형태가 되어버렸다. (원래는 망고빙수 아래에 펑리수가 있어야함)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c387a9d-9849-4274-ae53-08e80d62578e/reverse.png](/img/reverse.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c387a9d-9849-4274-ae53-08e80d62578e/reverse.png](/img/reverse.PNG)
 
 혼돈의 카오스..ㄷㄷ
 
@@ -246,11 +246,11 @@ step by step으로 차근히 시도를 했다.
 
 일단, 내 예상대로 망고빙수와 conflict가 일어났다. 아마 망고빙수와 펑리수가 같은 레벨에 존재하기 때문인 것 같다. 오케이 좋았어..
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb7e2c51-a391-42a1-bc26-cdf3d1a31bdf/conflictv2-1.png](/img/conflictv2-1.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb7e2c51-a391-42a1-bc26-cdf3d1a31bdf/conflictv2-1.png](/img/conflictv2-1.PNG)
 
 하지만, 첫번째 시도때와 마찬가지로 첫번째 rebase 상태에서 충돌을 해결하자 두세번째가 그냥 해결된 README.md가 짠! 하고 나타났다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca275598-121c-4a82-8b3e-50d634203caf/README.png](/img/README.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca275598-121c-4a82-8b3e-50d634203caf/README.png](/img/README.PNG)
 
 대체 왜 그런겁니까.. README씨..
 
